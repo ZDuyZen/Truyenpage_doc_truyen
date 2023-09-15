@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Truyen_page</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_home">Hello blank fragment</string>
+</resources>

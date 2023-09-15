@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhapActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#58B1FF"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/btn_dn_user"
+            android:layout_width="338dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="5dp"
+            android:hint="Username"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/btn_dn_pass"
+            android:layout_width="338dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_border"
+            android:drawableStart="@drawable/baseline_key_24"
+            android:drawablePadding="5dp"
+            android:hint="Paswword"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn_dn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FF2010"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
